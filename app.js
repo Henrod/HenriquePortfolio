@@ -1,4 +1,5 @@
 var express = require('express');
+var port = process.env.PORT || 3000;
 
 var app = express();
 
@@ -11,7 +12,7 @@ app.use(function(request, response, nextFunction) {
 
 app.use(express.static('./public'));
 
-app.listen(3000);
-console.log('Express running on port 3000');
+app.listen(port);
+console.log(`Express running on port ${port}`);
 
 module.exports = app;	// Now we can export app to use in other files.
