@@ -1,0 +1,19 @@
+div {
+	border-radius: 8px;
+	padding: 16px;
+	background-color: #287AA9;
+}
+
+h1, h3 {
+	color: white;
+	margin: 0px;
+}
+
+h3 {
+	margin-left: 16px;
+}
+
+ul {
+	margin: 0px;
+	padding: 16px;
+}
