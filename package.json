@@ -1,0 +1,26 @@
+{
+  "name": "henriquerodrigues",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henrod/HenriquePortfolio.git"
+  },
+  "keywords": [
+    "Henrique",
+    "Portfolio"
+  ],
+  "author": "Henrique Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henrod/HenriquePortfolio/issues"
+  },
+  "homepage": "https://github.com/Henrod/HenriquePortfolio#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
