@@ -22,7 +22,7 @@ html {
 	margin: 8px;
 }
 
-h1, h3 {
+h1, h3, h4 {
 	color: white;
 	margin: 0px;
 }
@@ -32,9 +32,13 @@ h3 {
 	margin-right: 16px;
 }
 
+h4 {
+	background-color: #287AA9;
+	padding: 8px;
+}
+
 ul {
 	list-style: none;
-	padding-left: 0;
 }
 
 li {
@@ -54,6 +58,7 @@ button.link {
 
 #menu {
 	float: left;
+	padding-left: 0;
 }
 
 #details {
@@ -66,4 +71,11 @@ iframe {
 	padding: 16px;
 	margin: 16px;
 	border: none;
+}
+
+img {
+	width:304px;
+	height:228px;
+	display: block;
+	margin: 0 auto;
 }
