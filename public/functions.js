@@ -1,13 +1,13 @@
 var works = {
-	inventario: "inventario.html",
-	racetimer: "racetimer.html",
-	cerberus: "cerberus.html"
+	inventario: "pages/inventario.html",
+	racetimer: "pages/racetimer.html",
+	cerberus: "pages/cerberus.html"
 };
 
 function load(page) {
 	for (var project in works) {
 		if (project === page) {
-			document.getElementById("title").innerHTML = page;
+			document.getElementById("details").src = works[project];
 			break;
 		}
 	}

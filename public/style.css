@@ -1,13 +1,25 @@
-body {
+body, html, #items {
 	font-family: "Times New Roman";
-	margin: 8px;
+	margin: 0px;
 	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+html {
+
 }
 
 #header {
 	border-radius: 8px;
 	padding: 16px;
+	margin: 8px;
 	background-color: #287AA9;
+}
+
+#items {
+	display: flex;
+	margin: 8px;
 }
 
 h1, h3 {
@@ -17,6 +29,7 @@ h1, h3 {
 
 h3 {
 	margin-left: 16px;
+	margin-right: 16px;
 }
 
 ul {
@@ -39,20 +52,18 @@ button.link {
 	text-decoration: underline;
 }
 
-#items {
-	overflow: hidden;
-	height: 100%;
-}
-
 #menu {
 	float: left;
 }
 
 #details {
 	overflow: hidden;
+	flex-grow: 1;
 }
 
 iframe {
-	margin-top: 8px;
+	margin-top: 0px;
 	padding: 16px;
+	margin: 16px;
+	border: none;
 }
