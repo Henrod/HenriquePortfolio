@@ -79,3 +79,8 @@ img {
 	display: block;
 	margin: 0 auto;
 }
+
+p {
+	font-size: x-large;
+	margin: 0;
+}
